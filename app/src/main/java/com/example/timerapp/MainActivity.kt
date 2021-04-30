@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
     private var timerState = TimerState.Stopped
     private var secondsRemaining = 0L
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
