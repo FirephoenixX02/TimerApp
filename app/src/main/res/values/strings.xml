@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Timer App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="stop_button">Stop Button</string>
+    <string name="start_button">start_button</string>
+    <string name="pause_button">pause_button</string>
+</resources>
