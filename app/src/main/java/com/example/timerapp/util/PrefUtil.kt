@@ -28,10 +28,11 @@ class PrefUtil {
 
         private const val TIMER_STATE_ID = "com.example.timer.timer_state"
 
-        fun getTimerState(context: Context): MainActivity.TimerState
-        val prefernces = PreferenceManager.getDefaultSharedPreferences(context)
-        val ordinal = prefernces.getInt(TIMER_STATE_ID, 0)
-        return MainActivity.TimerState.values()[ordinal]
+        fun getTimerState(context: Context): MainActivity.TimerState {
+            val prefernces = PreferenceManager.getDefaultSharedPreferences(context)
+            val ordinal = prefernces.getInt(TIMER_STATE_ID, 0)
+            return MainActivity.TimerState.values()[ordinal]
+        }
 
         fun setTimerState(state: MainActivity.TimerState, context: Context) {
             val editor = PreferenceManager.getDefaultSharedPreferences(context).edit()
@@ -54,5 +55,11 @@ class PrefUtil {
             editor.apply()
         }
 
+        private const val ALARM_SET_ID = com.example.timerapp.backgrounded_time
+
+        fun getAlarmSetTime(context: Context): Long {
+            val preferences = PreferenceManager.getDefaultSharedPreferences(context)
+            return
+        }
     }
 }
