@@ -43,7 +43,6 @@ class PrefUtil {
                 editor.apply()
             }
 
-
             private const val SECONDS_REMAINING_ID = "com.example.timer.seconds_remaining"
 
             fun getSecondsRemaining(context: Context): Long {
