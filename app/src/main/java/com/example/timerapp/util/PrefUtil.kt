@@ -56,7 +56,6 @@ class PrefUtil {
                 editor.apply()
             }
 
-
             private const val ALARM_SET_TIME_ID = "com.example.timer.backgrounded_time"
 
             fun getAlarmSetTime(context: Context): Long {
