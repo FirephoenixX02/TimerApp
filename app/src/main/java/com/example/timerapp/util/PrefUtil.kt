@@ -28,7 +28,6 @@ class PrefUtil {
                 editor.apply()
             }
 
-
             private const val TIMER_STATE_ID = "com.resocoder.timer.timer_state"
 
             fun getTimerState(context: Context): MainActivity.TimerState {
