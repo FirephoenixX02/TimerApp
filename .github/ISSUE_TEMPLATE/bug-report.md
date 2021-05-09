@@ -28,7 +28,7 @@ If applicable, add screenshots to help explain your problem.
  - Device: [e.g. Pixel 4...]
  - OS: [e.g. Android 11.0...]
  - Version [e.g. v.0.2-alpha...]
-Important for Version! The Version displayed in the App Properties under Android is not what we need. Because the Minimum is 1.0 and we are working with v0.2-alpha etc. Just search up which apk Version you Downloaded(https://github.com/FirephoenixX02/TimerApp/releases) or if you are using v.0.2-alpha just look in the Settings Page(On the Top Right).
+Important for Version! The Version displayed in the App Properties under Android is not what we need. Because the Minimum is 1.0 and we are working with v0.2-alpha etc. Just search up which apk Version you Downloaded(https://github.com/FirephoenixX02/TimerApp/releases).
 
 **Additional context**
 Add any other context about the problem here.
