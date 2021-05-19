@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Timer App</string>
-    <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="next">Next</string>
     <string name="previous">Previous</string>
